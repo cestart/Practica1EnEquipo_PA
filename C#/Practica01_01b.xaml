@@ -1,0 +1,26 @@
+﻿<Window x:Class="PracticasUnidad1.Practica01_01b"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Frame Practica 01 b" Height="300" Width="450">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Pestaña 1">
+                <StackPanel>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Pestaña 2">
+                <ScrollViewer HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Visible">
+                    <StackPanel>
+                    </StackPanel>
+                </ScrollViewer>
+            </TabItem>
+            <TabItem Header="Pestaña 3">
+                <ItemsControl>
+                </ItemsControl>
+            </TabItem>
+            <TabItem Header="Pestaña 4">
+                <TextBlock Text="Este es un marco interno (simulación)" Margin="10"/>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
